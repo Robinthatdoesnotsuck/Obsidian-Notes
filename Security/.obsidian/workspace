@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "96c14ac83e95602f",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd6067a61b008679",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        },
+        "group": "a84e40a001b443d5"
+      },
+      {
+        "id": "1391a72e0d79606c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Becoming an It Security Specialist/Core Concepts/Understanding Malware.md",
+            "mode": "source"
+          }
+        },
+        "group": "a84e40a001b443d5"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9fcc8a7eab25fb5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b780e1b2aff7d599",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f06225085fcdcdc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "478f881a6fd1254e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9131f29632c77441",
+    "type": "split",
+    "children": [
+      {
+        "id": "0cc74d18ebcd7e56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e79025866f6611e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "bd6067a61b008679",
+  "lastOpenFiles": [
+    "Becoming an It Security Specialist/Core Concepts/Understanding Malware.md",
+    "Untitled.md",
+    "Becoming an It Security Specialist/Core Concepts/Secure Devices and Applications.md",
+    "Becoming an It Security Specialist/Core Concepts/Mobile and Wireless Security.md",
+    "Becoming an It Security Specialist/Core Concepts/Investigation Internet Security.md",
+    "Becoming an It Security Specialist/Core Concepts/Untitled.md",
+    "Index.md",
+    "Becoming an It Security Specialist/Core Concepts/Core Security Principles.md",
+    "Becoming an It Security Specialist/Core Concepts/Getting into Your System.md",
+    "Becoming an It Security Specialist/Core Concepts.md"
+  ]
+}

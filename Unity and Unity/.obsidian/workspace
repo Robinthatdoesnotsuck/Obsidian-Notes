@@ -1,0 +1,107 @@
+{
+  "main": {
+    "id": "2e59b6d90d818d36",
+    "type": "split",
+    "children": [
+      {
+        "id": "240d8751be460501",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2D GENERAL/Animation.md",
+            "mode": "source"
+          }
+        },
+        "group": "50f5fbea9fdb375a"
+      },
+      {
+        "id": "40d23b04d849daea",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2D GENERAL/Animation.md",
+            "mode": "preview"
+          }
+        },
+        "group": "50f5fbea9fdb375a"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "09801cf444e8b900",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad7e6df177a8e5ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d25d9f149e97d035",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4934e86999931a12",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d57012f99dd3eaba",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5299bccec0328a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d6b24613a4b9212",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2D GENERAL/Animation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "240d8751be460501",
+  "lastOpenFiles": [
+    "2D GENERAL/Animation.md",
+    "Untitled.md"
+  ]
+}
