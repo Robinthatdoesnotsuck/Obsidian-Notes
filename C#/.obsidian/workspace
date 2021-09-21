@@ -7,8 +7,11 @@
         "id": "ca9eb880df56ec25",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Defining Software Design Patterns.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Defining Software Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,5 +87,7 @@
     "collapsed": true
   },
   "active": "ca9eb880df56ec25",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Untitled.md"
+  ]
 }
