@@ -1,45 +1,29 @@
 {
   "main": {
-    "id": "3d75066bd042c126",
+    "id": "1ec76c7c923c7c2d",
     "type": "split",
     "children": [
       {
-        "id": "ca9eb880df56ec25",
+        "id": "141fcbb1891d76ce",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Design Patterns with OOP/Get Started with Design Patterns.md",
-            "mode": "source"
-          }
-        },
-        "group": "a381bcad480bb259"
-      },
-      {
-        "id": "3311b803ff38cf35",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Design Patterns with OOP/Get Started with Design Patterns.md",
-            "mode": "preview"
-          }
-        },
-        "group": "a381bcad480bb259"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d9a6a4135b9c733a",
+    "id": "3d78a2de0005a74b",
     "type": "split",
     "children": [
       {
-        "id": "b3770c9dbfb7d59e",
+        "id": "dc04aa6cdafc64a9",
         "type": "tabs",
         "children": [
           {
-            "id": "8282decee470487e",
+            "id": "95a765a0ab25e875",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +31,7 @@
             }
           },
           {
-            "id": "00ffff797b5c222a",
+            "id": "69377dfae49230c9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -68,20 +52,19 @@
     "width": 300
   },
   "right": {
-    "id": "eb44d3943b028c87",
+    "id": "9bf9bf24804d9fcb",
     "type": "split",
     "children": [
       {
-        "id": "ade434ac9deadd6e",
+        "id": "095d6c2f894de579",
         "type": "tabs",
         "children": [
           {
-            "id": "f86c72e78c2034be",
+            "id": "59a22af3cf28a889",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Patterns with OOP/Get Started with Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,9 +82,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ca9eb880df56ec25",
-  "lastOpenFiles": [
-    "Untitled.md",
-    "Defining Software Design Patterns.md"
-  ]
+  "active": "141fcbb1891d76ce",
+  "lastOpenFiles": []
 }
