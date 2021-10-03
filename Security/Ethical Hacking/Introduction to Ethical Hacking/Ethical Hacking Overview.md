@@ -1,0 +1,98 @@
+# Make reference to ->
+## [[Core Security Principles]]
+### Security analyst
+- Is in charge of providing services to ensure confidentiality, integrity and availability
+- Standard regulations
+	- PCI DSS
+	- HIPAA
+	- SOX
+	- GDPR
+	- These standards define security measures to prevent data loss
+- Guidelines
+	- COBIT Framework  
+## Threat landscape 
+- ### Malware
+	- Network-based ransomware
+	- Whiper malware
+	- Polymorphic
+- Today almost every traffic is encrypted but it has its flaws
+	- Malicious actors can conceal themselves with this
+	- Moving thorugh your network in the form of an advanced persistent threat
+- ### Phishing
+	- Spear phising
+		- Attacks that prey on the fears like current events and problems
+- ### IOT
+	- It is an expanding vector of attack  
+	- Many IOT devices are untested and with many vulnerabilitites
+	- Burst attack is like DDOS
+		- But for IOT
+- https://www.fireeye.com/
+## Attack vectors 
+- A method by which someone gains unlawful entry into a system
+- The goal is to deliver malicious payload or other malicious act 
+- Like social engineering with email
+	- ![[Core Security Principles#Social Engineering]]
+- But we also need to defend ourselves from malware
+	- ![[Understanding Malware#Protection]]
+## Attack types 
+- The goal of cybersecurity is to 
+	- Create
+	- Implement
+	- Monitor
+	- Assess
+	- Maintain
+	- Continously improve
+- Different type of attacks
+	- Physical
+	- Social engineering
+	- Brute force
+- An attack can result in the loss of some form of asset  
+- Active Attacks
+	- DDOS
+	- Dictionary attack
+	- Brute force attack
+	- Many attacks are the consequence of social engineering
+- Passive Attacks
+	- SIP flood
+		- Session initiation protocol
+		- Used to set up and maintain end user session for communication protocols
+		- Malware
+			- [[Understanding Malware#]]
+## The Cyber Kill Chain 
+- An advanced persistent threat is when a malicious actor gains access to a network, and remains undetected for weeks, months and even years.
+- ### The Cyber Kill Chain
+	- If we identify threats early enough we will reduce the possibility of an advanced persistent threat
+	- Advanced
+		- Means it is targeted
+		- Coordinated
+		- Wel thought out actions
+		- Purposeful
+	- Persistent
+		- The activity is in our system long time 
+	- Threat
+		- Anything that has a motive, means or the ability to alter a system's integrity 
+- ### Seven steps of the CyberKill Chain
+ ![[Pasted image 20211001165813.png]]
+	- #### Reconnaissance
+		- Gathering information
+		- The actor researches security vulnerabilities on the system
+			- What type of data do we store?
+			- Where is located?
+			- Who can access it?
+			- What can i gather?
+	- #### Weaponization
+		- The actors can device a plan to get inside the network
+		- Malware
+	- #### Delivery
+		- The actor now crafts a plan to deliver the attack
+		- Using phising
+	- #### Exploitation
+		- Now that they are in the network they can exploit a vulnerability
+		- Exploit errors in the system
+	- #### Installation    
+		- The malware is installed
+	- #### Command and control
+		- Gains access to the system
+		- The control server will issue commands to the malware installed
+	- #### Actions on the objective
+		- This is when the actor will achieve its goal  

@@ -1,0 +1,181 @@
+## The Orange Book: Concepts of computer security
+### Rainbow Series of books for USA department of defense
+- #### Orange Book: Computers
+- #### Red Book: Networks
+- #### Green Book: Passwords
+- Many more
+### Orange Book
+- Describes the security design of a computer that can be trusted to handle both unclassified and classified information
+- It proves the paradigm of information security
+- Provides technical cirteria for the security design and security evaluation of the hardware, firmware and application software of the computer
+- It introduces four key concepts in information security
+	- A reference monitor
+		- That mediates access to system resources
+	- A formal security model 
+		- for reading and writing information 
+	- A trusted computing base
+		-  as a subsystem containing all the security code
+	- The testing
+		- Required to achieve various levels of assurance
+- #### Reference Monitor
+	-  Is an essential element of any system that provides multilevel secure computing facilities and controls
+	-  Enforces access controls between people and things in the system
+		-  A subject can be people or a program module
+		-  An object can be a data file or a system function
+	- Three essential characteristics
+		- Reference validation mechanism must be tamper proof
+		- The reference mechanism must always be invoked
+		- Must be small enough to be conpletely analyzed and tested
+- #### The Bell-LaPadula scheme
+	- For managing multilevel information flows
+	- Two approaches of security
+		- Discretionary access control **DAC**
+			- Is applied security within the same classification of information to provide a means of restricting information access on a need-to-know basis
+			- Requires an access control list to be maintained by an administrator   				
+			- It is access control list like IAM
+		- Mandatory access control **MAC**
+			- A user holds certain level of acess rights or clearand and an object is labeled at a certain level of sensitivity
+			- Levels of sensitivity
+				- Restricted
+				- Confidential
+				- Secret
+				- Top-Secret
+			- Two Rules
+				- Simple security rule: Users at a certain level can't read anything which has a label at a higher sensitivity level
+				- Star security rule: A user at a certain clearance level cannot write down to a file which is labeled at a lower level as this may expose sensitive information to users that don't have that clearance level   
+- #### Trusted computer system TCB
+	- It is a trusted computing base that contains all of the elements of the system responsible for supporting the security policy and supporting the isolation of objects on which the protection is based
+	- Bounds or security perimeter
+		-  Includes hardware firmware and software critical to protection
+	- It must be designed and implemented so that nothing outside the TCB is sensitive or relevant on the management of security
+	- Should be simple and consistent with the functions it has to perform
+- #### Classifiaction scheme
+	- Is a scheme for evaluationg assurance of systems
+	- Four leves of assurance
+		- D1: Minimal protection
+		- C1 to C2: Discretionary Protection
+		- B1 to B3: Mandatory Protection
+		- A1: Verified protection   
+## The Nist Cybersecurity Framework
+- Made by the US National Institute of Standards and Technology in 2014
+- Is the defacto standard for cybersecurity
+- Is an action-oriented approach to security and consists of three elements
+	- The Framewrok Core
+	- Framework Profile
+	- Framework Implementation
+- ### Framework Core
+	- Provides a set of activities to achieve cybersecurity
+	- Described by the five areas
+		- Identify
+		- Protect
+		- Detect
+		- Respond
+		- Recover
+		- Each of these activities is decomposed in a total of 23 categories of security activities  
+- The framework itself doesn't provide a set of controls
+## Adopting the NIST Framework
+- ### Framework Profile
+	- Used to align business outcomes and cybersecurity activities
+	- Provides a view of risks and a development plant to brach the two
+- ### Maturity model or implementation tier
+	- #### The basic level of cybersecurity and maturity is the partial implementation tier
+		- Is is characterized by it's prize risk management being reactive, where cybersecurity activities aren't based on risk objectives or business outcomes
+	- #### The next tier is where there is little external collaboration
+		- Risk management practices are formalized but may not be adapted across the organization
+		- There is informal sharing of cybersecurity information internally only
+	-  #### The next tier of maturity is repeatable
+		-  Where a risk is management is formalized and mandated as a policy
+		-  Processes exist to respond to changes in risk
+		-  Collaboration is external and internall
+	- #### Highest maturity level Adaptive
+		- It extends the third level with awareness and agility
+		- Applies continuous changes to security activities
+- ### Nist recommendation
+	- When adopting a cybersecuirt framework NIST recommends the adoption of two profiles
+		- First
+			- Should represent the current state of cybersecurity as assessed against the subset of enterprise activities thar are required
+		- Second
+			- The target state of cyber security
+			- Set as the acceptable level of risk against each of the enterprise activiteis
+	- A security plan of proritized projects can be defined to close the gap the current state and the target one
+	- For organizations that are starting to integrate a security framework there are key actions to have in mind
+		- Identify Key business outcomes
+			- Understand threats and risks
+			- Create a profile for it
+			- Conduct risk assesment
+			- Decide the target profile
+			- Create an action plan
+			- Establish and extecute a program for the plan   
+## Basics of cyber risk
+-	Cybersecurity is at its heart, the management of digital risk
+-	Like hackers or malware
+-	A standard approach has been developed by the national institute of standards in technogloy
+	- Special publication 800-30
+	- Guide for conducting Risk assesments
+- The ISO also provides guidance with its ISO 27005 Information Security Risk Management publication
+- ![[Core Security Principles#Risk]]
+- Risk Starts with a threat event
+	- That must be analyzed to determined its probability of ocurring
+	- Considering the actiors, capabilities and resources
+	- Consider the intent or motivation 
+- The losses could be financial, intelligence, disruption or just recognition
+- Then is to set the vulnerabilities in our information and processing assets like
+	- Databases
+	- networks
+	- WorkStations
+	- Servers
+	- The risks can be anything that affects the functionality of any of these devices
+- Then we consider the impact on the business in case of one of these events
+	- We carry out business impact assesments  	
+## Cyber Threats and controls
+- ### Source threat intelligence
+	- A catalog of threats can be found at the Appendix E to the NIST Special Publication SP 800-30
+	- This catalogs gives us events expressed as Tactics, Techniques and Procedures or TTPs.
+	- Another source is the MITRE ATT&CK Site that is used in the MITRE cybersecurity resilency framework
+	- Antoher one is Veris, that is an open database
+	- ThreatStream offers an open source cyber intelligence blog that talks about the current activities and threat actors
+	- There are also the reports of the threat actors, techniques and target vulnerabilities
+- ### So once we identify the risk we have four possible treatments
+	- #### Risk Acceptance 
+		- Is when the risk is withing the business appetite
+	- #### Risk avoidance
+		- When it is better to stop doing that line of business than take the risk
+	- #### Risk transfer
+		- Where a third party takes the risk
+	- #### Risk mitigation
+		- Where we actually implement controls to reduce the risk
+		- ##### Four key types of control that can be applied    
+			- It is generally recommended that two or more are used together to achieve a good defense
+			- ##### Deterrent controls
+				- Reduces the threat
+			- ##### Preventive Controls 
+				- Stop an attack from succeeding by not allowing it to get an asset to exploit us
+			- ##### Detective controls
+				- Detect an attak that has taken place
+			- ##### Corrective controls
+				- Reduce the impact of an incident
+				- They are the response to recover functional controls
+## Recording, reporting and the risk context
+- We need to have a report of all the risks available in our organization
+- This is usually done using what are known as governance risk and controls or GRC tools
+- The risk register contains the basic risk information, like ID and name, classification of the information and the risk owner and a small summary of the consequences
+	- ### Risk information is presented in two ways
+		- Inherent risk assuming no controls are in place
+			- This determines how strong the controls need to be
+		- The control details are provided and a residual risk is calculated to show the current risk that's being experienced by the business
+	- Risk register is a key feature of the cyber-risk program
+		- Risks can be shown in a risk heat-map
+		- Or a risk bubble char
+	![[Pasted image 20210930135807.png]]
+		- A typical approach to managing risks is to accept any very low risks which appear in the green area
+		- Low risk in the gold area are also accepted but they are monitored
+		- Medium risks in the yellow area are scheduled for routine remediation work
+		- High risk require immediate remediation work
+		- Sometimes the bubble chart is enhance to show the planned progress of mitigations using an arrow and antoher bubble to identify the final expected risk level
+		![[Pasted image 20210930135940.png]]
+		- This charts provide a powerful tool to show the work done to reduce a risk
+	- Risk context
+		- Is the risk bubble chart and the tables used to determine likelihood and impact
+	 ![[Pasted image 20210930140020.png]]
+		- These tables are specifically developed for the business by its risk officer
+		- It should also contain the guidance on the actions required to be taken at each risk level     

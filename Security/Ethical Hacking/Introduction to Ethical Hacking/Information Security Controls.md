@@ -1,0 +1,35 @@
+## Defense in depth
+- Attacking a network is easier than it seems
+	- Taking advantage of configuration managements
+	- Can occurrs from ouside or inside
+	- Defense must be a layered approach
+- ### Three basic elements
+	- Technical Controls
+		- Should detect threats and protect the infrastructure
+		- The goal is to make an attack cumbersone
+		- It should provide a centralized correlation of events in order to notify someone in charge in case of  suspicion
+		- Applications need to be tuned to provide early notifications of potential attacks and determine the possible source and target
+	- Administrive controls and procedures
+	- The people 
+	- The network administrator has a number of technical controls that add to the security layers
+	- #### Firewall
+		- Is a hardawre or software-based method that controls incoming and outgoing traffic
+		- It is a set of rules that either permit or deny traffic on a networ or host
+		- Firewalls should be used in every network
+	- #### Unified threat management
+		- Next-generation firewalls
+		- Provide firewall intrusion prevention
+		- Antivirus support
+		- Data loss prevention
+		- Content filtering
+		- Protect the network while reducing complexity
+	- Other ways to defend the network
+		- Spam filters
+		- Intrusion detection system
+		- Packet shapers
+		- Honeypots
+		- Network isolation
+			- VLANS
+			- Network address translation NAT
+			- Encryption
+		- Access controls also are in place to ensure authorized
